@@ -1,0 +1,355 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .color li a{
+        color: white;
+        font-size: 15pt;
+    }
+    .container-fluid a{
+        color: white;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+    .search-btn{
+        color:black;
+        background-color:white;
+        width: 150px;
+    }
+        .search-btn:hover{
+          background-color: green;
+        }
+   .join{
+    margin-top: 120px;
+   margin-left: 750px;
+   }
+   .team-heading{
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+   }
+  </style>
+  <body>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+          crossorigin="anonymous"
+        />
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark design">
+          <div class="container-fluid">
+            <a class="navbar-brand epicode" href="/index.html">EPICODE</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 color" >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about.html">About us</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Our Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2 my-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn-outline-success search-btn my-2 " type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+          <div
+          id="carouselExampleCaptions"
+          class="carousel slide carousel-fade"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators btn">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://source.unsplash.com/1400x400?javascript"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Welcome to Epicode</h1>
+                <p>where technology chnages you</p>
+                <button type="button" class="btn btn-primary">
+                  Technology
+                </button>
+                <button type="button" class="btn btn-danger">
+                  Web Development
+                </button>
+                <button type="button" class="btn btn-success">Tech fun</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://source.unsplash.com/1400x400?python"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Welcome to Epiicode</h1>
+                <p>where technology chnages you</p>
+                <button type="button" class="btn btn-primary">
+                  Technology
+                </button>
+                <button type="button" class="btn btn-danger">
+                  Web Development
+                </button>
+                <button type="button" class="btn btn-success">Tech fun</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://source.unsplash.com/1400x400?coding"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Welcome to Epicode</h1>
+                <p>where technology chnages you</p>
+                <button type="button" class="btn btn-primary">
+                  Technology
+                </button>
+                <button type="button" class="btn btn-danger">
+                  Web Development
+                </button>
+                <button type="button" class="btn btn-success">Tech fun</button>
+              </div>
+            </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+</div>
+
+<div class="container   my-4  ">
+    <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+             <img src="https://source.unsplash.com/500x500?programming"  class= "bd-placeholder-img img-fluid my-4 mx-4" width="200" height="200" />
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Epicode</strong>
+              <h3 class="mb-0">Post title</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="https://source.unsplash.com/500x500?reactjs"  class="bd-placeholder-img img-fluid my-4 mx-4" width="200" height="200" />
+    
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+</div>
+<div class="container my-4">
+    <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+             <img src="https://source.unsplash.com/500x500?javascript"  class="bd-placeholder-img img-fluid my-4 mx-4" width="200" height="200" />
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <h3 class="mb-0">Post title</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="https://source.unsplash.com/500x500?datascience"  class="bd-placeholder-img img-fluid my-4 mx-4" width="200" height="200" />
+    
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Oh yeah, it’s that good.
+              <span class="text-muted">See for yourself.</span>
+            </h2>
+            <p class="lead">
+              Another featurette? Of course. More placeholder content here to give
+              you an idea of how this layout would work with some actual
+              real-world content in place.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-2">
+            
+   <img  src="https://source.unsplash.com/500x500?coding" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500" alt="image" />
+          </div>
+        </div>
+      </div>
+
+
+</div>
+<div class="container-fluid">
+<div class="card text-bg-dark  ">
+    <img src="https://source.unsplash.com/1400x400?javascript" class="card-img img-fluid "  alt="..." >
+    <div class="card-img-overlay">
+      <h5 class="card-title team-heading">WELCOME TO EPICODE WORLD </h5>
+      
+      
+      <a href="/contact.html" type="button" class="btn btn-success btn-lg join">Click join our team</a>
+     
+    </div>
+  </div>
+</div>
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Company, Inc</p>
+  </footer>
+   <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+          integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+          integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+          crossorigin="anonymous"
+        ></script>
+      </body>
+    </html>
+  </body>
+</html>
